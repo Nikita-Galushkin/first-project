@@ -1,0 +1,15 @@
+@import url('./__item/contact__item.css');
+@import url('./__icon-tel/contact__icon-tel.css');
+@import url('./__icon-tel/_black/contact__icon-tel_black.css');
+@import url('./__icon-mail/contact__icon-mail.css');
+@import url('./__icon-mail/_black/contact__icon-mail_black.css');
+
+.contact {
+  font-family: 'SF UI Display', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.contact:nth-last-child(2) {
+  margin-top: 27px;
+}

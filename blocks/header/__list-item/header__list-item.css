@@ -1,0 +1,35 @@
+.header__list-item {
+  margin-left: 48px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s 0s opacity ease-in;
+}
+
+.header__list-item:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 1024px) {
+  .header__list-item {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__list-item {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__list-item {
+    font-size: 16px;
+    line-height: 100%;
+    margin-left: 20px;
+  }
+}

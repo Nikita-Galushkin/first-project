@@ -1,0 +1,16 @@
+@import url('./__content-container/tabs__content-container.css');
+@import url('./__container/tabs__container.css');
+@import url('./__button-list/tabs__button-list.css');
+@import url('./__button/tabs__button.css');
+@import url('./__button/_active/tabs__button_active.css');
+@import url('./__text-container/tabs__text-container.css');
+@import url('./__text-container/_active/tabs__text-container_active.css');
+@import url('./__text/tabs__text.css');
+
+
+.tabs {
+  font-family: 'SF UI Display', Arial, sans-serif;
+  position: relative;
+  background: radial-gradient(at 0% 100%, #343434 0%, #121212 100%);
+  z-index: 0;
+}

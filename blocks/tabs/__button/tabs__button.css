@@ -1,0 +1,25 @@
+.tabs__button {
+  width: 360px;
+  height: 60px;
+  padding: 18px auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #121212;
+  border: 1px solid #3F3F3F;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s 0s background-color ease-in;
+}
+
+.tabs__button:focus {
+  outline: none;
+}
+
+.tabs__button:hover {
+  background-color: #E9971D;
+}

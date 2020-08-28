@@ -1,0 +1,10 @@
+.rectangle {
+  width: 733px;
+  height: 318px;
+  position: absolute;
+  right: 0;
+  top: 106px;
+  background: #AA6F17;
+  opacity: 0.2;
+  z-index: -1;
+}

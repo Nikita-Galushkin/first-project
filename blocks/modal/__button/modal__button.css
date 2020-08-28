@@ -1,0 +1,35 @@
+.modal__button {
+  width: 360px;
+  height: 60px;
+  padding: 18px auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  background-color: #E9971D;
+  box-sizing: border-box;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s 0s background-color, .3s 0s color, .3s 0s border ease-in;
+}
+
+@media screen and (max-width: 768px) {
+  .modal__button  {
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 40px;
+    height: 35px;
+  }
+}
+
+.modal__button:focus {
+  outline: none;
+}
+
+.modal__button:hover {
+  background-color: #FFFFFF;
+  border: 1px solid #E9971D;
+  color: #E9971D;
+}

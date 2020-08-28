@@ -1,0 +1,16 @@
+.tabs__text-container {
+  display: none;
+  transition: visibility .5s, opacity .5s ease-in-out;
+  max-width: 780px;
+  min-height: 460px;
+  background: url(../../../images/tabs-image.jpg);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+  border: 1px solid #3F3F3F;
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-left: 60px;
+}

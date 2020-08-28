@@ -1,0 +1,15 @@
+.slider__list-container {
+  max-width: 550px;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__list-container {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider__list-container {
+    max-width: 450px;
+  }
+}

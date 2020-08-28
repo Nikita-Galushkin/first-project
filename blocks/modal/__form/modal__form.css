@@ -1,0 +1,7 @@
+.modal__form {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 30px;
+  column-gap: 40px;
+}

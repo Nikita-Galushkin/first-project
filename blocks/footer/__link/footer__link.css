@@ -1,0 +1,13 @@
+.footer__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #C1C1C1;
+  margin: 0 156px 0 240px;
+  transition: 0.3s 0s opacity ease-in;
+}
+
+.footer__link:hover {
+  opacity: .6;
+}

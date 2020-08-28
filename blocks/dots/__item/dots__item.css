@@ -1,0 +1,10 @@
+.dots__item {
+  display: block;
+  padding: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid #777777;
+  box-sizing: border-box;
+  background: none;
+}

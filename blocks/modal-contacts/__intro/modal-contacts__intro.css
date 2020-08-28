@@ -1,0 +1,9 @@
+.modal-contacts__intro {
+  display: inline-block;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 140%;
+  text-align: center;
+  margin-top: 28px;
+}

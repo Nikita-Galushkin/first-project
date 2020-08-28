@@ -1,0 +1,30 @@
+.slider__subtitle {
+  margin: 0 0 12px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__subtitle {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .slider__subtitle {
+    font-size: 40px;
+    line-height: 120%;
+    margin: 15px 0 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider__subtitle {
+    font-size: 30px;
+    line-height: 100%;
+    margin: 30px 0 65px;
+  }
+}

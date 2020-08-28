@@ -1,0 +1,9 @@
+.tabs__button_active {
+  background: #fff;
+  color: #2B2B2B;
+  cursor: default;
+}
+
+.tabs__button_active:hover {
+  background-color: #fff;
+}

@@ -1,0 +1,21 @@
+@import url('./__item/dots__item.css');
+@import url('./__item/_active/dots__item_active.css');
+
+.dots {
+  font-family: 'SF UI Display', Arial, sans-serif;
+  min-width: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0 0 70px;
+  list-style-type: none;
+  cursor: pointer;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
+
+.dots:focus {
+  outline: none;
+}

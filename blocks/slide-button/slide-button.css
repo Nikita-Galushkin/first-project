@@ -1,0 +1,20 @@
+@import url('./__prev/slide-button__prev.css');
+@import url('./__next/slide-button__next.css');
+
+.slide-button {
+  display: inline-flex;
+  color: #777;
+  opacity: 0;
+  cursor: pointer;
+  transition: 0.3s 0s opacity ease-in;
+  font-size: 50px;
+  width: 60px;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.slide-button:hover {
+  opacity: .8;
+}

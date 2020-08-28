@@ -1,0 +1,16 @@
+.slider__marker {
+  display: block;
+  margin: 25px 26px 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #9B6718;
+}
+
+@media screen and (max-width: 600px) {
+  .slider__marker {
+    margin: 25px 10px 0;
+    width: 7px;
+    height: 7px;
+  }
+}

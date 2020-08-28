@@ -1,0 +1,17 @@
+.slider__list-item {
+  display: flex;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #F3F3F3;
+  opacity: 0.99;
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .slider__list-item {
+    font-size: 16px;
+    line-height: 19px;
+  }
+}

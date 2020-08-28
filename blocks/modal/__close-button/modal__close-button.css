@@ -1,0 +1,32 @@
+.modal__close-button {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../../../images/Union.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.modal__close-button:focus {
+  outline: none;
+}
+
+.modal__close-button:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+  .modal__close-button  {
+    width: 30px;
+    height: 30px;
+    top: -30px;
+    right: -30px;
+  }
+}

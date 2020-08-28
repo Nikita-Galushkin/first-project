@@ -1,0 +1,5 @@
+.line {
+  height: 10px;
+  background: linear-gradient(90deg, #E9971D 0.29%, rgba(233, 151, 29, 0) 62.51%);
+  z-index: 1;
+}

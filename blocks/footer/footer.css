@@ -1,0 +1,9 @@
+@import url('./__container/footer__container.css');
+@import url('./__copyright/footer__copyright.css');
+@import url('./__link/footer__link.css');
+
+.footer {
+  font-family: 'SF UI Display', Arial, sans-serif;
+  background: #252525;
+  padding: 41px 0 34px;
+}

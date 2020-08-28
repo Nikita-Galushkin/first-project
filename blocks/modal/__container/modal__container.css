@@ -1,0 +1,20 @@
+.modal__container {
+  max-width: 884px;
+  background-color: #121212;
+  background-image: url(../../../images/modal-image1.jpg);
+  width: 100%;
+  background-size: 651px 278px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  color: #fff;
+  padding: 80px 62px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .modal__container {
+    margin: 40px;
+  }
+}

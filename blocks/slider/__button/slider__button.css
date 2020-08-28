@@ -1,0 +1,49 @@
+@import url('./_style/slider__button_style.css');
+
+.slider__button {
+  background-color: #FFFEFC;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: center;
+  color: #121212;
+  padding: 16px 86px;
+  margin: 59px 0 148px;
+  cursor: pointer;
+  transition: .3s 0s background-color, .3s 0s color ease;
+}
+
+.slider__button:focus {
+  outline: none;
+}
+
+.slider__button:hover {
+  color: #fff;
+  background-color: #E9971D;
+}
+
+.slider__button:hover .slider__button_style{
+  color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+  .slider__button {
+    margin-left: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider__button {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider__button {
+    font-size: 16px;
+    line-height: 90%;
+    padding: 10px 10px;
+  }
+}

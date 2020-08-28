@@ -1,0 +1,29 @@
+.contact__icon-mail {
+  display: block;
+  width: 20px;
+  height: 14px;
+  box-sizing: border-box;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 20px;
+  transition: 0.3s 0s opacity ease-in;
+  background-image: url('../../../images/icon-mail.svg');
+  background-size: 20px 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  transition: 0.3s 0s opacity ease-in;
+}
+
+.contact__icon-mail:hover {
+  opacity: .6;
+}
+
+@media screen and (max-width: 768px) {
+  .contact__icon-mail {
+    width: 16px;
+    height: 10px;
+    background-size: 16px 10px;
+    margin-right: 10px;
+  }
+}
